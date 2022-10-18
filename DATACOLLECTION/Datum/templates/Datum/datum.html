@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    
+        
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .one{
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            text-align: center;
+            background-color: red;
+        }
+        button{
+            padding: 20px;
+    
+        }
+        p{
+            padding-top: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="main">
+            <p>Fullname:<input type="text"></p>
+            <p>Location:<input type="text"></p>
+            <p>Date of birth:<input type="date"></p>
+            <p>Nationality:<input type="text"></p>
+            <p>Favorite Color:<input type="text"></p>
+            <button><a href="{% url 'ply' %}">SUBMIT</a></button>
+        </div>
+    </div>
+
+</body>
+</html>
